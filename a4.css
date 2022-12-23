@@ -1,0 +1,14 @@
+@media print {
+    body {
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 45mm 30mm 45mm; 
+   } 
+}
+
+body {
+    height: 100%;
+    background: #ffffff url(image.png) bottom center no-repeat;
+    background-size: 100% auto;
+    image-rendering: pixelated;
+}
